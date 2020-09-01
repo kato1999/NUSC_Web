@@ -6,30 +6,57 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/each_content.css">
-
-    <script src="https://kit.fontawesome.com/83c1963f23.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark mb-3 header_content">
-      <a class="navbar-brand mr-5 logo" href="#">名大生協学生委員会</a>
-      <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link h5 mt-2 mr-1" href="#">トップ</a>
-          <a class="nav-item nav-link h5 mt-2 mr-1" href="#">学生委員会とは?</a>
-          <a class="nav-item nav-link h5 mt-2 mr-1" href="#">活動内容</a>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <!-- <header> -->
+    <div class="navbar-box sticky-top ">
+      <nav class="navbar navbar-expand-lg navbar-dark mb-3 header_content">
+        <a class="navbar-brand logo ml-2" href="#">
+          <img src="img/logo.png" class="d-inline-block align-top header_logo">
+        </a>
+        <a class="navbar-brand mr-3" href="#">
 
-  <section class="container-fluid bg-light py-5" id="sec_act">
+        名大生協学生委員会</a>
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link mr-1" href="#">トップ</a>
+            <a class="nav-item nav-link mr-1" href="#sec_exp">学生委員会とは?</a>
+            <a class="nav-item nav-link mr-1" href="#sec_act">活動内容</a>
+            <a class="nav-item nav-link mr-1" href="#sec_mail">連絡先</a>
+          </div>
+        </div>
+      </nav>	
+    </div>
+  <!-- </header> -->
+  
+  <section class="sec_top container" id="sec_exp">
+      <h2 class="heading d-inline-block mr-2 mb-3">学生委員会とは</h2>
+      <p class="ml-3">
+        学生委員会は大学生協に所属するする学生団体で、生協のある全国の多くの大学にあります。
+        名大生協学生委員会は新入生歓迎活動や教科書販売等ガイダンス、店舗での活動、機関誌Me-diaの作成など様々な活動を行っており、
+        知らないうちに学生委員会の活動に触れている人も多いはずです。<br><br>
+
+        大学生協の理念に For peace and better life というものがあり、学生委員会では生協という場を利用して、
+        自分たちを含む組合員がより充実した大学生活を送れるように、以下のことを心がけて、忙しいながらも毎日楽しく活動しています。　
+      </p>
+
+      <h5 class="h4 mt-4 mb-2">活動時間帯</h5>
+      <p class="ml-3 ">  
+        毎週土曜日に「部会」というミーティングを行っています。この部会で活動内容がすべて話し合われ、決定されます。それ以外の時間も委員会室で作業しています。
+      </p>
+      <div class="text-center">
+        <img src="./img/meetng.JPG" alt="部会ぽい画像">
+      </div>
+  </section>
+
+  
+
+  <section class="sec" id="sec_act">
     <div class="container">
       <h2 class="heading d-inline-block mr-2 mb-5">活動の紹介</h2>
       <div class="row position-relative d-md-flex flex-row-reverse">
@@ -117,6 +144,54 @@
       </div>
     </div>
   </section>
+
+
+  <section class="sec_top container" id="sec_exp">
+    <h2 class="heading d-inline-block mr-2 mb-3">学生委員会とは</h2>
+    <p class="ml-3">
+      学生委員会は大学生協に所属するする学生団体で、生協のある全国の多くの大学にあります。
+      名大生協学生委員会は新入生歓迎活動や教科書販売等ガイダンス、店舗での活動、機関誌Me-diaの作成など様々な活動を行っており、
+      知らないうちに学生委員会の活動に触れている人も多いはずです。<br><br>
+
+      大学生協の理念に For peace and better life というものがあり、学生委員会では生協という場を利用して、
+      自分たちを含む組合員がより充実した大学生活を送れるように、以下のことを心がけて、忙しいながらも毎日楽しく活動しています。　
+    </p>
+
+    <h5 class="h4 mt-4 mb-2">活動時間帯</h5>
+    <p class="ml-3 ">  
+      毎週土曜日に「部会」というミーティングを行っています。この部会で活動内容がすべて話し合われ、決定されます。それ以外の時間も委員会室で作業しています。
+    </p>
+    <div class="text-center">
+      <img src="./img/meetng.JPG" alt="部会ぽい画像">
+    </div>
+</section>
+
+
+
+  <section class="container sec" id="sec_mail">
+      <h2 class="heading d-inline-block mr-2 mb-3">連絡先</h2>
+      <div class="twitter">
+        <a class="twitter-timeline" data-lang="ja" data-height="350" data-theme="light"
+          href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw">Tweets by meddy_club</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br>
+        <a href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw" class="twitter-follow-button"
+          data-show-count="false">Follow @meddy_club</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <a href="https://twitter.com/intent/tweet?screen_name=meddy_club&ref_src=twsrc%5Etfw"
+          class="twitter-mention-button" data-show-count="false">
+          Tweet to @meddy_club</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer footer-copyright my-3">
+        <span class="small">Copyright (C) 2020 Nagoya University Co-op Student Committee.</span>
+    </div>    
+</footer>
 
 </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

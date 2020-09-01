@@ -2,11 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 body{
-    /* background-color: rgb(255, 250, 245); */
-    background-color: blue;
+    background-color: rgb(255, 250, 245);
+    /* background-color: blue; */
 }
 
 /* ヘッダ部分 */
+.header_logo{
+    width: 45px;
+    margin-right: -10px;
+}
+
+
 .header_content{
     background-color: rgb(255, 187, 0);
 }
@@ -17,11 +23,12 @@ body{
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
     color: rgba(255,255,255);
+    font-weight: bold;
 }
 
 .logo{
     font-family: 'Abril Fatface', cursive;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .head_link{
@@ -29,6 +36,20 @@ body{
 }
 
 /* 各セクション */
+p{
+    margin:0 20px;
+}
+
+.sec_top{
+    margin-top:-100px;
+    padding-top:100px;
+}
+
+.sec {
+    margin-top:-20px;
+    padding-top:100px;
+}
+
 .heading {
 	border-left: 6px solid rgb(255, 187, 0);
 	padding: 0 0 0 10px;
@@ -42,10 +63,30 @@ body{
 }
 
 .message_box{
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.6);
 }
 
 
+
+/* 連絡先部分 */
+.twitter{
+    width: 90%;
+    max-width: 500px;
+    text-align:center;
+    margin:0 auto;
+}
+
+#sec_mail{
+    margin-bottom: 100px;
+}
+
+footer {
+	position: fixed;
+    text-align: center;
+    bottom: 0px;
+	width: 100%;
+    background-color: rgb(255, 187, 0);
+  }
 
 
 
