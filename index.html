@@ -15,7 +15,7 @@
         <a class="navbar-brand logo ml-2" href="#">
           <img src="img/logo.png" class="d-inline-block align-top header_logo">
         </a>
-        <a class="navbar-brand mr-3" href="#">
+        <a class="navbar-brand mr-3" href="#sec_exp">
 
         名大生協学生委員会</a>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -24,17 +24,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link mr-1" href="#">トップ</a>
             <a class="nav-item nav-link mr-1" href="#sec_exp">学生委員会とは?</a>
             <a class="nav-item nav-link mr-1" href="#sec_act">活動内容</a>
-            <a class="nav-item nav-link mr-1" href="#sec_mail">連絡先</a>
+            <a class="nav-item nav-link mr-1" href="#meddy">メディ・ベア</a>
+            <a class="nav-item nav-link mr-1" href="#sec_mail">メディア</a>
           </div>
         </div>
       </nav>	
     </div>
   <!-- </header> -->
   
-  <section class="sec_top container" id="sec_exp">
+  <section class="sec_top sec" id="sec_exp">
+    <div class="container">
       <h2 class="heading d-inline-block mr-2 mb-3">学生委員会とは</h2>
       <p class="ml-3">
         学生委員会は大学生協に所属するする学生団体で、生協のある全国の多くの大学にあります。
@@ -52,13 +53,14 @@
       <div class="text-center">
         <img src="./img/meetng.JPG" alt="部会ぽい画像">
       </div>
+    </div>
   </section>
 
   
 
-  <section class="sec" id="sec_act">
+  <section class="sec bg-white" id="sec_act">
     <div class="container">
-      <h2 class="heading d-inline-block mr-2 mb-5">活動の紹介</h2>
+      <h2 class="heading d-inline-block mr-2 mb-md-5">活動の紹介</h2>
       <div class="row position-relative d-md-flex flex-row-reverse">
         <div class="col-12 col-md-7 message">
             <h4 class="font-weight-bold pt-5 pb-md-2">総代活動</h4>
@@ -82,8 +84,7 @@
             <div class="p-3 message_box">
             <!-- <p>Normal paragraph. Vivamus sagittis lacus	vel augue laoreet rutrum faucibus dolor	auctor. non commodo luctus.</p> -->
             <p class="m-2 act_explain">
-              年に6回発行しているMe～dia(め～でぃあ)では生協店舗のフェアやセールのお知らせ、季節の話題や大学生活のお役立ち情報などをお届けします。
-              記事内容を考えるところからデザイン・レイアウトをするところまで全て私たちが行っています。
+              共済の理念に基づき、より安心安全な大学生活になるように健康や安全に関する活動をしています。
             </p>
           </div>
         </div>
@@ -146,9 +147,9 @@
   </section>
 
 
-  <section class="container-fluid sec" id="meddy">
+  <section class="sec" id="meddy">
     <div class="container">
-      <h2 class="heading d-inline-block mr-2 mb-3">メディベア</h2>
+      <h2 class="heading d-inline-block mr-2 mb-3">メディ・ベア</h2>
         <div class="row position-relative d-md-flex flex-row-reverse">
           <div class="col-12 col-md-5 pb-3 zindex-dropdown"><img src="img/meddy1.png" alt="マスコットキャラの画像" class="w-100"> </div>
           <div class="col-12 col-md-8 message zindex-tooltip">
@@ -164,14 +165,13 @@
           <p class="h5 goods_explain">メディがクパスケースになって登場！名古屋大学生協の 南部購買・北部購買・BooksFronteにて発売中！</p>
           <img class="w-sm-50 goods_pic" src="./img/goods.png">
         </div>
-
-    
     </div>
-</section>
+  </section>
 
 
 
-  <section class="container sec" id="sec_mail">
+  <section class=" bg-white sec" id="sec_mail">
+    <div class="container">
     <h2 class="heading d-inline-block mr-2">メディア</h2><br>
 
     <div class="text-center">
@@ -181,20 +181,22 @@
       </div>
 
       <h4>ツイッター</h4>
+      名大生協学生委員会では twitterをやっています。是非フォローしてください。
       <div class="twitter">
-        <a class="twitter-timeline" data-lang="ja" data-height="350" data-theme="light"
+        <a class="twitter-timeline" data-lang="ja" data-height="350" data-theme="light" data-chrome="noheader nofooter"
           href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw">Tweets by meddy_club</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
         <br>
-        <a href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw" class="twitter-follow-button"
-          data-show-count="false">Follow @meddy_club</a>
+        <a href="https://twitter.com/meddy_club?ref_src=twsrc%5Etfw" class="twitter-follow-button twitter_btn"
+          data-show-count="false" data-size="large">Follow @meddy_club</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         <a href="https://twitter.com/intent/tweet?screen_name=meddy_club&ref_src=twsrc%5Etfw"
-          class="twitter-mention-button" data-show-count="false">
+          class="twitter-mention-button twitter_btn" data-show-count="false" data-size="large">
           Tweet to @meddy_club</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
+    </div>
     </div>
   </section>
 
