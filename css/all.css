@@ -5,6 +5,8 @@ body{
     /* background-color: blue; */
 }
 
+
+
 /* ヘッダ部分 */
 .header_logo{
     width: 45px;
@@ -58,6 +60,12 @@ p{
 }
 
 
+/* 学生委員会とは */
+.meeting_pic{
+    width: 90%;
+    max-width: 400px;
+}
+
 
 /* 5大活動紹介 */
 .active_explain{
@@ -93,6 +101,13 @@ p{
     margin-bottom: 100px;
 }
 
+.mail_pic{
+    border:1px solid rgb(255, 195, 84);
+    max-width: 95%;
+}
+
+
+/* フッター */
 footer {
     text-align: center;
 	width: 100%;
@@ -108,7 +123,7 @@ footer {
 ============================================== */
 @media screen and (min-width: 576px) {
  #sec_act .message {
-    position: absolute;
+    /* position: absolute; */
      left: 0;
  } 
 
