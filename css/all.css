@@ -15,7 +15,7 @@ body{
 
 
 .header_content{
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(243, 146, 0);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -55,9 +55,17 @@ p{
 }
 
 .heading {
-	border-left: 6px solid rgb(255, 187, 0);
+	border-left: 6px solid rgb(243, 146, 0);
 	padding: 0 0 0 10px;
 }
+
+/*　最上部 */
+.top{
+    max-width: 90%;
+    width: 400px;
+    margin: 0 auto;
+}
+
 
 
 /* 学生委員会とは */
@@ -111,7 +119,7 @@ p{
 footer {
     text-align: center;
 	width: 100%;
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(243, 146, 0);
 }
 .right{
     padding: 10px 0px;
