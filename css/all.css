@@ -42,7 +42,7 @@ p{
 }
 
 .sec {
-    background-color: rgb(255, 250, 250);
+    background-color: rgb(255, 249, 245);
 
     margin-top:-40px;
     padding-top:60px;
@@ -104,9 +104,6 @@ p{
     margin:0 auto;
 }
 
-#sec_mail{
-    margin-bottom: 100px;
-}
 
 .mail_pic{
     border:1px solid rgb(255, 195, 84);
@@ -135,7 +132,7 @@ footer {
  } 
 
  #meddy .message {
-    position: absolute;
+    /* position: absolute; */
      left: 0;
  } 
 } /* END */
