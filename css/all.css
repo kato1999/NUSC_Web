@@ -5,6 +5,9 @@ body{
     /* background-color: blue; */
 }
 
+.content{
+    min-height: 90vh;
+}
 
 
 /* ヘッダ部分 */
@@ -65,7 +68,12 @@ p{
     max-width: 400px;
 }
 
-
+.news{
+    width: auto;
+    height: 300px;
+    border: rgb(255, 195, 84) solid 2px;
+    overflow: scroll;
+}
 
 /* 学生委員会とは */
 .meeting_pic{
@@ -119,6 +127,11 @@ footer {
 }
 .right{
     padding: 10px 0px;
+}
+
+.sinkan_logo{
+    width: 90%;
+    max-width: 300px;
 }
 
 
